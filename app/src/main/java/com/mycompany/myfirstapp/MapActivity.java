@@ -57,6 +57,7 @@ public class MapActivity extends ActionBarActivity
     @Override
     protected void onStart() {
         super.onStart();
+
         //if (!mResolvingError) {  // more about this later
             gCli.connect();
         //}
