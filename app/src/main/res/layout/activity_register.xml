@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mycompany.myfirstapp.RegisterActivity"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+    style="@style/StartActivity">
+
+    <TextView android:text="O EasyBus vai validar o número do seu VEM para verificar sua condição de portador de necessidades especiais, para que você tenha total acesso ao aplicativo."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        style="@style/LabelTheme"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="número do VEM"
+            android:id="@+id/txtVemNumber"
+            android:inputType="number"></EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:onClick="confirm"
+            style="@style/ButtonTheme"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

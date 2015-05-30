@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Customize your theme here.-->
+        <!--<item name="android:actionBarStyle">@style/EasyBusGreenStyle</item>-->
+        <item name="colorPrimary">#ff16a085</item>
+
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="EasyBusGreenStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/material_deep_teal_200</item>
+    </style>
+
+    <style name="StartActivity">
+        <item name="android:background">#ff244242</item>
+    </style>
+    
+    <style name="CustomWindowTitleBarBackground">
+        <item name="android:windowTitleBackgroundStyle">@style/StartActivity</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <!--<item name="android:colorBackground">#ff16a085</item>-->
+        <item name="android:background">#ff16a085</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="LabelTheme">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+</resources>

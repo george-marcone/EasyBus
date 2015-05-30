@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mycompany.myfirstapp.StartActivity"
+    style="@style/StartActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        style="@style/StartActivity">
+
+        <TextView android:text="Bem vindo ao Easy Access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelTheme"
+            android:layout_margin="15dip"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_acessibilidade"
+            android:layout_margin="20dip"/>
+
+        <TextView android:text="Encontre com facilidade os ônibus adaptados a sua necessidade e saiba com precisão o tempo que levarão até a sua parada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="15dip"
+            android:textSize="14sp"
+            style="@style/LabelTheme"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:layout_alignParentBottom="true"
+        style="@style/ButtonTheme"
+        android:onClick="next"/>
+
+</RelativeLayout>
